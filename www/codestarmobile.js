@@ -234,11 +234,6 @@ new (function() {
             if(value > 255) tmp = 255;
             runPackage(deviceNumber['color3'], ports[color], tmp);
         }
-
-        var ports = {red:9, green:10, blue:11};
-        if(device){
-            runPackage(deviceNumber['color3'], ports[color], value);
-        }
     };
     ext.cs_vibration = function(port, onoff){
         if(device) {
