@@ -219,11 +219,10 @@ new (function() {
             result[deviceNumber[key]] = 0;
         }
     };
-    ext.cs_color_single = function(color, onoff, id){
+    ext.cs_color_single = function(color, onoff){
         var ports = {red:7, blue:8};
         if(device){
             runPackage(deviceNumber['color0'], ports[color], hl[onoff]);
-            trace(id);
         }
     };
     ext.cs_3color = function(color, value){
