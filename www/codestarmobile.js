@@ -398,7 +398,7 @@ new (function() {
             ['r', 'IR Remocon %m.remotePort', 'cs_irR', 'On-board'],
             [' ', '%m.direction motor velocity %m.motorVel', 'cs_drive', 'forward', 100],
             [' ', '%m.wheelDir wheel velocity %m.wheelVel', 'cs_wheel', 'left', 100],
-            ['r', 'sonar sensor %m.sonarFixedPort', 'cs_sonar', 'A7, D13'],
+            ['r', 'sonar sensor %m.sonarFixedPort', 'cs_sonar', 'A0, D13'],
             ['r', 'IR %m.analogPort', 'cs_ir', 'A0'],
             ['r', 'joystick X axis %m.joyPort Y axis %m.joyPort', 'cs_joystick', 'A0', 'A1'],
             ['r', 'joystick button %m.digitalPort', 'cs_joybutton', 'D5'],
